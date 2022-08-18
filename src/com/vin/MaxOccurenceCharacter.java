@@ -19,7 +19,7 @@ public class MaxOccurenceCharacter {
                 .stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .map(a->a.getKey())
-                .findAny()
-                .orElse(null);
+                .findFirst()
+                .orElse(Character.MIN_VALUE);
     }
 }
