@@ -1,8 +1,7 @@
 Assignment - String practice
 
 1. WAP to reverse a String.
-Input: “iNeuron”
-Output: “norueNi”
+
 2. WAP to reverse a sentence while preserving the position.
 Input : “Think Twice”
 Output : “kniht eciwt”
